@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -14,8 +15,8 @@ text-shadow: 11px 12px 13px
 
 
 
-<h1 style="text align:center"><a href="https://google.com">Home</a></h1>
-
+<h1 style="text-align: center;"><a href="https://chess.com">Home</a></h1>
+<h1 style="text-align: center;"><a href="https://www.britannica.com/topic/chess">About</a></h1>
 
 
   </body>
