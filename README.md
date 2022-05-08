@@ -1,23 +1,58 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 2</title>
-  </head>
-  <body>
+body {
+background-color: lightgray;
 
-<p style="color:black;
-font-family:fantasy;
-text-align:center;
-font-size: 40px;
-text-shadow: 11px 12px 13px
-">My Chess Page</p>
+}
 
+fieldset{
+  background-color: darkgray;
+text-align: center;
+}
 
+.block {
+display:inline-block;
+border: 4px solid black;
+width: 200px;
+height: 260px;
 
-<h1 style="text-align: center;"><a href="https://chess.com">Home</a></h1>
-<h1 style="text-align: center;"><a href="https://www.britannica.com/topic/chess">About</a></h1>
+}
 
+.container {
+  text-align: center;
 
-  </body>
-</html>
+}
+
+.block > img {
+
+width: 100px;
+height: 100px;
+
+}
+
+.box2{
+text-align: center;
+border: 4px solid white;
+}
+
+.box2 > .example{
+  background-color: blue;
+  color: yellow;
+  font-family: fantasy;
+}
+
+.box2 > .example2 {
+background-color: white;
+color: blue;
+font-family: cursive;
+
+}
+.box2 > p
+{
+color: red;
+background-color: green;
+font-family: sans-serif;
+}
+
+.work {
+  overflow: scroll;
+   width: 500px;
+   height: 200px;
