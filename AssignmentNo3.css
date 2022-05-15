@@ -1,0 +1,57 @@
+body {
+
+  background-color: lightblue;
+}
+
+
+.row {
+  background-color: green;
+position: absolute;
+border: 2px solid pink;
+height: 500px;
+width: 60%;
+box-sizing: border-box;
+margin-left: 20%;
+margin-top: 10%;
+
+}
+
+.Box {
+box-sizing: border-box;
+background-color: white;
+height: 400px;
+width: 45%;
+text-align: center;
+float: left;
+margin: 2%;
+margin-top: 5%;
+margin-right: 3%;
+
+}
+
+.Littlebox {
+margin-top: 34%;
+}
+
+.mdlbox {
+  background-color: lightgray;
+position: fixed;
+align-items: center;
+text-align: center;
+  opacity: 0;
+  pointer-events: none;
+margin-left: 35%;
+margin-top: 26%;
+}
+
+
+
+#Ghanawindow:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#Mauwindow:target {
+  opacity: 1;
+  pointer-events: all;
+}
