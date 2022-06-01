@@ -1,0 +1,19 @@
+body { background-color: rgb(144, 236, 236);}
+
+div.Gamebox {
+
+    text-align: center;
+     border: solid black 8px;
+     max-height: fit-content;
+     max-width: fit-content;
+     margin: auto;
+}
+
+div.Gamebox > h1 {
+    color: blue;
+}
+
+div.Gamebox > p {
+    color: rgb(5, 79, 104);
+}
+
